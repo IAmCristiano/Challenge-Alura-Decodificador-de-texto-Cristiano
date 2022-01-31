@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Criptografar e Descriptografar mensagens</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Apenas letras minúsculas, sem acento!</label>
+        <input class="text-input" type="text" name="entrada-texto" id="entrada-texto" placeholder="Insira o seu texto aqui!">
+        <input class="btn" type="button" value="Criptografar!" id="botao-criptografar">
+        <input class="btn" type="button" value="Descriptografar!" id="botao-descriptografar">
+        <input class="btn" type="button" value="Limpar" id="botao-limpar-entrada-texto">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensagem criptografada:</h2>
+      <input class="text-input" type="text" id="saida-texto" readonly></input>
+      <input class="btn" type="button" value="Copiar" id="botao-copiar">
+      <input class="btn" type="button" value="Limpar" id="botao-limpar-saida-texto">
+    </section>
+  </main>
+  <h3 class="final">Cristiano Santos - 2022</h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
